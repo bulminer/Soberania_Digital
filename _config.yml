@@ -1,0 +1,7 @@
+title: Soberania Digital
+description: Alternativas europeias para soberania digital
+author: Luís Candeias
+theme: minima
+plugins:
+  - jekyll-feed
+
