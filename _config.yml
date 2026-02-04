@@ -3,7 +3,8 @@ title: Soberania Digital
 description: >-
   Um projeto dedicado a promover alternativas europeias a aplicações americanas,
   focando na privacidade e soberania digital.
-
+author: Luís Candeias
+email: luis.candeias@example.com  # Substitui pelo teu email real ou remove esta linha
 
 # Configuração do tema
 theme: jekyll-theme-modernist
@@ -15,9 +16,9 @@ plugins:
   - jekyll-sitemap
 
 # Configuração de URLs (importante para o GitHub Pages)
-url: "https://bulminer.github.io"  # URL base do teu site
-baseurl: "/Soberania_Digital"     # Nome do repositório
-repository: bulminer/Soberania_Digital  # Link para o teu repositório
+url: "https://bulminer.github.io"
+baseurl: "/Soberania_Digital"
+repository: bulminer/Soberania_Digital
 
 # Configuração de build
 markdown: kramdown
@@ -25,43 +26,17 @@ kramdown:
   input: GFM
   syntax_highlighter: rouge
 
-# Configuração de posts e coleções
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      permalink: /blog/:year/:month/:day/:title/
-  - scope:
-      path: ""
-      type: "pages"
-    values:
-      layout: "default"
-
 # Configuração de navegação (menu)
 header_pages:
   - index.md
   - sobre.md
   - alternativas.md
   - blog.md
+  - contactos.md
 
 # Configuração de redes sociais (opcional)
 social:
   name: Luís Candeias
   links:
     - https://github.com/bulminer
-    
-
-# Configuração de SEO e partilha
-
-  card: summary
-
-# Configuração de comentários (opcional, se quiseres usar Disqus ou outro)
-# comments:
-#   provider: disqus
-#   disqus:
-#     shortname: soberania-digital  # Substitui pelo teu shortname do Disqus
-
-# Configuração de Google Analytics (opcional)
-# google_analytics: UA-XXXXXXXX-X  # Substitui pelo teu ID do Google Analytics
+    - https://mastodon.social/@luis_candeias  # Substitui pelo teu perfil real
