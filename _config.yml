@@ -34,9 +34,4 @@ header_pages:
   - blog.md
   - contactos.md
 
-# Configuração de redes sociais (opcional)
-social:
-  name: Luís Candeias
-  links:
-    - https://github.com/bulminer
-    - https://mastodon.social/@luis_candeias  # Substitui pelo teu perfil real
+
