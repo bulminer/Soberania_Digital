@@ -4,23 +4,26 @@
 
 /* Personalização do cabeçalho */
 .site-header {
-  background-color: #2c3e50;
+  background-color: #000000; /* Cor de fundo preta */
   padding: 1rem;
 }
 .site-title {
-  color: #ecf0f1 !important;
-  font-size: 1.8rem;
+  color: #00ff00 !important; /* Cor verde "hacker" */
+  font-family: 'Courier New', monospace;
+  font-size: 1.5rem;
 }
 .site-nav a {
-  color: #bdc3c7 !important;
+  color: #00ff00 !important; /* Cor verde "hacker" */
+  font-family: 'Courier New', monospace;
   font-weight: 500;
 }
 
 /* Personalização do corpo */
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Courier New', monospace;
   line-height: 1.6;
-  color: #333;
+  color: #00ff00; /* Cor verde "hacker" */
+  background-color: #000000; /* Cor de fundo preta */
 }
 .page-content {
   padding: 2rem;
@@ -30,8 +33,9 @@ body {
 
 /* Personalização do rodapé */
 .site-footer {
-  background-color: #2c3e50;
-  color: #ecf0f1;
+  background-color: #000000;
+  color: #00ff00;
   padding: 1rem;
   text-align: center;
+  font-family: 'Courier New', monospace;
 }
