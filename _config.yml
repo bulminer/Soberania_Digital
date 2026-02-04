@@ -7,7 +7,7 @@ author: Luís Candeias
 email: luis.candeias@example.com  # Substitui pelo teu email real ou remove esta linha
 
 # Configuração do tema
-theme: jekyll-theme-modernist
+theme: jekyll-theme-hacker
 
 # Configuração de plugins (necessário para o GitHub Pages)
 plugins:
